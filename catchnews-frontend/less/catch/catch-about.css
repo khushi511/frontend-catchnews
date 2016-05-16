@@ -1,0 +1,390 @@
+div.main-menu nav ul li{
+		list-style-type: none;
+		display: inline-block;
+		font-family: 'adelle_ltlight';
+		font-size: 18px;
+		font-weight: 400px;
+		letter-spacing: 0px;
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-top: 5;
+		margin-bottom: 0px !important;
+		text-transform: none;
+}
+div.main-menu nav {
+		width: auto;
+		height: auto;
+		text-align: center;
+		display: block;
+		min-height: 0px;
+}
+.nav-center-relative {
+		 margin-left: auto;
+		margin-right: auto;
+}
+div.main-menu nav ul li:hover {
+		color: #a52828;
+}
+.nav-bg{
+	background-color: #ffffff;
+}
+.nav-text-color{
+	padding: 0px !important;
+	font-family: 'adelle_sanslight';
+	color: #70706E !important;
+}
+.nav-center{
+	padding: 0px;
+}
+.nav-text-color:hover{
+	text-decoration: none !important;
+}
+
+
+.heading-font-style
+{
+	font-family: 'adelle_sansbold';
+	font-size: 40pt;
+	color: #808080;
+	letter-spacing: 5pt;
+	font-weight: bold;
+	padding-top: 5%;
+
+}
+.heading-hr
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	/*margin-bottom: 20px;*/
+	width: 170px;
+	height: 5px;
+	background-color: #32A0AA;
+}
+.content-prag{
+	font-family: 'adelle_sanslight';
+	font-size: 17pt;
+	line-height: 26pt;
+	margin-top: 70px;
+	margin-bottom: 75px;
+	color: #6F6F6E;
+}
+
+
+.nav-page-bgcolor
+{
+	padding-bottom: 75px;
+	background-color: #F5F7F7;
+
+}
+#navigation-slider-desktop .slick-dots, #navigation-slider-mobile .slick-dots
+{
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	height: 20px;
+	text-align: center;
+	padding: 0;
+}
+#navigation-slider-desktop .slick-dots li, #navigation-slider-mobile .slick-dots li
+{
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+	padding: 0;
+	cursor: pointer;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+#navigation-slider-desktop .slick-dots li button, #navigation-slider-mobile .slick-dots li button
+{
+	font-size: 0;
+	line-height: 0;
+	display: block;
+	width: 2px;
+	height: 2px;
+	padding: 4px;
+	cursor: pointer;
+	color: transparent;
+	outline: none;
+	background: transparent;
+	float: left;
+	/*border-radius: 10px;*/
+	border: 0;
+}
+#navigation-slider-desktop .slick-dots li.slick-active, #navigation-slider-mobile .slick-dots li.slick-active
+{
+	background: black;
+}
+.slick-slide{
+	height: auto !important;
+}
+body {
+	/*For Scroll SPY*/
+	position: relative;
+}
+
+
+.img-position
+{
+	position: relative;
+}
+.img-overlay
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	height: 100%;
+	width:	100%;
+	background-color: #4c403d;
+	opacity: 0.65;
+	z-index: 50;
+}
+.on-img-name
+{
+	position: absolute;
+	top: 50%;
+	margin:0 auto;
+	width: 100%;
+	text-align: center;
+	font-family: 'DalaFloda-Black';
+	color: #FFFFFF;
+	z-index: 100;
+	font-size: 15pt;
+}
+.no-img-padding
+{
+	padding: 0px !important;
+}
+.work-img
+{
+	z-index: 0;
+}
+.img-position:hover .img-overlay
+{
+	display: none !important;
+}
+.img-position:hover .on-img-name{
+	display: none;
+}
+
+
+.text-input-form-style{
+	font-size: 18px;
+	color: #6F6F6E;	
+	font-family: 'adelle_sanslight';
+	background-color: #EDEFEF;
+	border: none;
+	padding: 25px;
+}
+.form-button{
+	
+	font-size: 16pt;
+	background-color: #32A0AA;
+	border: none;
+	font-family: 'adelle_sanslight';
+	color: #ffffff;
+	border-radius: 0;
+	padding: 10 25 10 25px;
+	width: 40%;
+}
+
+.feedback-text{
+	color: #32A0AA;
+	font-family: 'adelle_sanslight';
+	font-weight: lighter;
+	font-size: 23pt;
+	margin-top: 0px;
+	letter-spacing: 2px;
+}
+.feedback-line{
+	border-color: gray;
+	/*width: 470px;*/
+
+}
+.content-feedback{
+	font-family: 'adelle_sanslight';
+	font-size: 17pt;
+	color: #6F6F6E;	
+	line-height: 27pt;
+}
+
+
+
+.bgcolor
+{
+	padding-top: 5%;
+	padding-bottom: 100px;
+	background-color: #32A0AA;
+	margin-bottom: 5%;
+	margin-top: 75px;
+}
+.map-catch-logo{
+	margin: 10px auto;
+	padding-bottom: 5%;
+}
+.flexible-container
+{
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+	margin-bottom: 5%;
+}
+
+.flexible-container iframe,   
+.flexible-container object,  
+.flexible-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.address-table td
+{ 
+	font-family: 'adelle_sansregular';
+	font-size: 25px;
+	color: #FFFFFF;
+	padding:5px;
+	width: auto;
+	display: table-cell;
+	vertical-align: baseline;
+  	text-align: inherit; 
+}
+
+
+.social-text{
+	color: #11253A;
+	font-family: 'adelle_sanslight';
+	font-weight: lighter;
+	font-size: 40px;
+	margin-top: 0px;
+	margin-left: 25px;
+}
+
+
+.icon-margin{
+	margin-bottom: 35px;
+}
+
+
+
+.margin-our-team
+{
+	margin-bottom: 75px;
+}
+
+
+/*hr{
+	margin-bottom: 2px;
+	margin-top: 1px;
+	background: #9D9C9C;
+	height: 1.5px;
+
+}		*/
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+  			.content-prag{
+    			font-family: 'adelle_sanslight';
+    			font-size: 12pt;
+    			line-height: 15pt;
+				color: #6F6F6E;
+			}
+			.heading-font-style
+			{
+				font-family: 'adelle_sansbold';
+				font-size: 19pt;
+				color: #808080;
+				letter-spacing: 1.5px;
+				padding-top: 12%;	
+
+			}
+			.content-feedback{
+				font-family: 'adelle_sanslight';
+				font-size: 14px;
+				color: #6F6F6E;	
+			}
+			.address-table td
+			{ 
+				font-family: 'adelle_sansregular';
+				font-size: 16px;
+				color: #FFFFFF;
+				padding:3px;
+			}
+			.margin-content
+			{
+				/*margin-left: 20px;*/
+				margin-top: 45px;
+			}
+			.heading-hr
+			{
+				margin-left: 20px;
+				margin-right: 20px;
+				margin-top: 10px;
+				outline: 4pt;
+				margin-bottom: 20px;
+				width: 80px;
+				height: 5px;
+				background-color: #32A0AA;
+				
+			}
+			.social-text{
+				color: #11253A;
+				font-family: 'adelle_sanslight';
+				font-weight: lighter;
+				font-size: 25px;
+				margin-top: 0px;
+			}
+			.feedback-text{
+				color: #32A0AA;
+				font-family: 'adelle_sanslight';
+				font-weight: lighter;
+				font-size: 25px;
+				margin-top: 0px;
+			}
+			.on-img-name
+			{
+				position: absolute;
+				top: 50%;
+				margin:0 auto;
+				width: 100%;
+				text-align: center;
+				font-family: 'DalaFloda-Black';
+				color: #FFFFFF;
+				z-index: 100;
+				font-size: 11px;
+				
+			}
+			.form-button{
+				
+				font-size: 13px;
+				font-family: 'adelle_sanslight';
+				background-color: #32A0AA;
+				border: none;
+				border-radius: 0;
+				padding: 10 25 10 25px;
+				width: 40%;
+				
+			}
+			div.main-menu nav ul li{
+ 				list-style-type: none;
+ 				display: inline-block;
+ 				font-size: 10px;
+  				font-weight: 400px;
+  				letter-spacing: 0px;
+  				padding-left: 5px;
+  				padding-right: 5px;
+  				padding-top: 5;
+  				margin-bottom: 0px !important;
+  				text-transform: none;
+			}
+
+  }
